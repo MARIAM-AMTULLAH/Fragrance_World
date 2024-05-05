@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar {
+  
+      width: 600px;
+      border-radius: 10px;
+    margin: -10px 0px 0px -10px; /* Adjust as needed */
+    text-align: justify;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 300px;
+  
+  }
+  
+  .search-bar button {
+      width: 100px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #93c5f7;
+    color: rgb(48, 43, 43);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+   
+.logo1{
+    width: 10%;
+    height : 10%;
+}
+  
+  
+
+/*navigation bar*/
+.navbar{
+    display: flex; 
+    align-items: center; position:relative;}
+
+
+/*navigation bar: image and logo*/
+.logo{margin-left: 41%; 
+    font-family: "Lugrasimo", cursive;
+    font-weight: 600;
+    color: rgb(238, 39, 72);
+    text-align: center;
+    font-size: 30px;}
+
+.navbar ul{display: flex;}
+
+/*navigation bar: styling*/
+.navbar ul::before{content:"";
+    background-color: rgb(3, 3, 3);
+    position:absolute;
+    height: 200%; margin:-190px -67px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.8;
+    }
+
+.navbar ul li{list-style: none;
+    font-style: 1.3rem;}
+
+        .navbar ul li a{display: block; color: white;
+    padding: 20px 10px;
+    border-radius: 320px;margin-top: -55px; margin-left: 120px;
+    text-decoration: none;}
+
+    .navbar ul li a:hover{display: block; color:white ;
+        background-color: white;}
+        /*Home Section*/
+
+#home{display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            height: 400px;
+            justify-content: center;
+            align-items: center; 
+ }
+ #home::before{content:"";
+   
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+ /*CONTACT US PAGE*/
+
+}
+.body{background-color: white;}
+.content{text-align: center;}
+.form{width:500px;text-align: center;
+    padding:10px;
+    background:#eb0505;margin:-100px 0px 0px 900px;}
+.Cont{margin:250px 0px 0px 100px;width:500px;
+background-color:purple;}
